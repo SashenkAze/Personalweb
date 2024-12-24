@@ -375,10 +375,11 @@ span {
     transition: 0.4s ease-in-out;
 }
 .article-box:hover {
-    background: white;
-    color: black;
+    background: var(--bg-color);
+    color: var(--main-color);
     border: 5px solid var(--main-color);
     transform: scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
 }
 .article-box .article-info {
     display: flex;
